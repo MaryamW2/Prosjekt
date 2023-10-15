@@ -1,0 +1,199 @@
+body{
+    font: sans-serif;
+    background-color: antiquewhite;
+    margin-left: 0px;
+    margin-top:20px;
+}
+#header h1{
+    text-align: left;
+    padding-left: 36px;
+    color:antiquewhite;
+    size: 30px;
+    font: sans-serif;
+}
+#header div h1{
+    padding-left: 64px;
+    font: sans-serif;
+}
+#header main h1{
+    padding-left: 120px;
+    font: sans-serif;
+}
+
+#header{
+    background-color: #dc79de;
+    text-align:start;
+    padding: 10px;
+    width:100%;              
+}
+#header img{
+    transition: all 0.5s;
+    width: 25%;
+}
+#pic1{
+    position:absolute;
+    top: 5%; 
+    right: 560px; 
+}
+
+#pic2{
+    position:absolute;
+    top: 22%;   
+    right: 530px;   
+}
+
+#pic3{
+    position: absolute;
+    top: 10%;
+    right: 340px;
+}
+
+#pic4{
+    position: absolute;
+    top: 20%;
+    right: 310px;
+}
+
+#pic5{
+    position: absolute;
+    top: 7%;
+    right: 135px;
+}
+
+#pic6{
+    position: absolute;
+    top: 23%;
+    margin-left: 68%;
+}
+
+#header img:hover{
+    transform: rotateZ(-5deg);
+}
+#header_2{
+    background-color: #dc79de;
+    padding: 10px;
+    margin: 10px auto 20px;
+    display: block;
+    width: 300px;
+    text-align: center;
+    border-radius: 25px;
+    color: antiquewhite;
+    font: sans-serif;
+}
+#Ostekake_bilde img{
+    width: 50%;
+    border: 5px solid #dc79de;
+    align-content: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#Ingredienser h1, h2, ul{
+    padding-left: 14%;
+    color: #dc79de;
+    font: sans-serif;
+}
+#Ingredienser ul{
+    text-indent: 2px;
+    line-height: 25px;
+}
+#Ing_navn{
+    width: 150px;
+    border-radius: 12px;
+    font-size: x-large;
+    font-weight: 500;
+    padding: 10px;
+    background-color: #3564AE;
+    box-shadow: 5px 5px 5px #4455aa;
+    margin: 10px;
+    color: white;
+    text-align: center;
+}
+
+#Kort
+{
+    padding: 20px;
+    width:200px;
+    background: linear-gradient(to bottom, #f7fbfc 0%, #d9edf2 40%, #add9e4 100%);
+    margin: 20px;
+    min-height: 400px;
+    box-shadow: 19px -11px 49px -14px rgba(0, 0, 0, 0.79);
+    transform: all 0.5s;
+    border-radius: 20px;
+}
+
+
+#Kort:hover{
+    transform: scale(1.05);
+}
+#Ing_bilde{
+    text-align: center;
+    object-fit:contain;
+    width: 1%;
+    height: 1%;
+}
+
+table {
+ font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+ text-align: left;
+ padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.container{
+    margin: 10px;
+    display: flex;
+    justify-content: row;
+    justify-content:center;
+    flex-wrap: wrap;
+    border:1px solid red;
+}
+
+
+#card{
+    padding: 20px;
+    width:20em;
+    background: linear-gradient(to bottom, #f7fbfc 0%, #d9edf2 40%, #add9e4 100%);
+    margin: 20px;
+    height: 30em;
+    box-shadow: 19px -11px 49px -14px rgba(0, 0, 0, 0.79);
+    transform: all 0.5s;
+    border-radius: 20px;
+
+}
+
+#card:hover{
+    transform: scale(1.05);
+}
+
+#card h1{
+    width: 150px;
+    border-radius: 12px;
+    font-size: x-large;
+    font-weight: 500;
+    padding: 10px;
+    background-color: #3564AE;
+    box-shadow: 5px 5px 5px #4455aa;
+    margin: 10px;
+    color: white;
+    text-align: center;
+}
+
+
+#card .card-img{
+    width:10em;
+    height:10em;
+    margin:auto;
+    position: absolute;
+
+}
