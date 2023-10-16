@@ -113,18 +113,6 @@ body{
     text-indent: 2px;
     line-height: 25px;
 }
-#Ing_navn{
-    width: 150px;
-    border-radius: 12px;
-    font-size: x-large;
-    font-weight: 500;
-    padding: 10px;
-    background-color: #3564AE;
-    box-shadow: 5px 5px 5px #4455aa;
-    margin: 10px;
-    color: white;
-    text-align: center;
-}
 
 #Kort
 {
@@ -175,6 +163,8 @@ tr:nth-child(even) {
 
 
 #card{
+    display:flex;
+    justify-content: center;
     padding: 20px;
     width:20em;
     background: linear-gradient(to bottom, #f7fbfc 0%, #d9edf2 40%, #add9e4 100%);
@@ -191,6 +181,7 @@ tr:nth-child(even) {
 
 #card h1{
     width: 150px;
+    height:50px;
     border-radius: 12px;
     font-size: x-large;
     font-weight: 500;
@@ -203,18 +194,32 @@ tr:nth-child(even) {
 }
 
 
-#card .card-img{
-    width:18em;
+#card .card-img1{
+
+    width:10em;
     height:20em;
-    margin:auto;
+    margin-top:5em;
     position: absolute;
-    align-items: center;
+    padding-top: 22px;
+
 }
 
-#card .card-img1{
-    width:9em;
-    height:18em;
-    margin:auto;
-    position: absolute;
-    align-items: center;
+img {
+    width:auto;
+    max-height: 90%;
+}
+#card .card-img{
+    width:15em;
+    height:15em;    
+    position:absolute;
+    margin-top:10em;
+
+}
+
+#card .card-img2{
+    width:22em;
+    height:20em;    
+    position:absolute;
+    margin-top:6em;
+
 }
