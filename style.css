@@ -88,13 +88,28 @@ body{
     margin-left: auto;
     margin-right: auto;
 }
+#text-container p{
+    color: #dc79de;
+    font: sans-serif;
+    font-size: 20px;
+}
+#text-container h1{
+    color: #dc79de;
+    font: sans-serif;
+}
 
-#Ingredienser h1, h2, ul{
+
+#Ingredienser h1, h2, ul, ol{
     padding-left: 14%;
     color: #dc79de;
     font: sans-serif;
 }
-#Ingredienser ul{
+#Ingredienser p, ul{
+    color: #dc79de;
+    font: sans-serif;
+    font-size: 20px;
+}
+#Ingredienser ul, ol{
     text-indent: 2px;
     line-height: 25px;
 }
@@ -156,7 +171,6 @@ tr:nth-child(even) {
     justify-content: row;
     justify-content:center;
     flex-wrap: wrap;
-    border:1px solid red;
 }
 
 
@@ -169,7 +183,6 @@ tr:nth-child(even) {
     box-shadow: 19px -11px 49px -14px rgba(0, 0, 0, 0.79);
     transform: all 0.5s;
     border-radius: 20px;
-
 }
 
 #card:hover{
@@ -191,9 +204,17 @@ tr:nth-child(even) {
 
 
 #card .card-img{
-    width:10em;
-    height:10em;
+    width:18em;
+    height:20em;
     margin:auto;
     position: absolute;
+    align-items: center;
+}
 
+#card .card-img1{
+    width:9em;
+    height:18em;
+    margin:auto;
+    position: absolute;
+    align-items: center;
 }
